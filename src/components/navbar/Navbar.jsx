@@ -13,21 +13,21 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Lama Dev
+          Priyanka Ganesan
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://medium.com/@gpriyankapms">
+            <img src="/medium.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a href="https://www.linkedin.com/in/priyanka-ganesan/">
+            <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a href="https://github.com/Priyanka-ganesan-15">
+            <img src="/github.png" alt="" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <img src="/dribbble.png" alt="" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

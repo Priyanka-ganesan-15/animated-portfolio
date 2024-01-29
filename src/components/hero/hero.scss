@@ -3,11 +3,11 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  background: linear-gradient(180deg, #e9e7dd , #F5F3EC);
   position: relative;
 
   .wrapper {
-    max-width: 1366px;
+    max-width: 80%;
     height: 100%;
     margin: auto;
 
@@ -17,7 +17,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 40px;
+      gap: -20px;
 
       @include mobile {
         height: 50%;
@@ -29,7 +29,7 @@
 
       h2 {
         font-size: 30px;
-        color: rebeccapurple;
+        color: #7d837d;
         letter-spacing: 10px;
       }
 
@@ -43,7 +43,7 @@
 
       .buttons {
         button {
-          padding: 20px;
+          padding: 30px;
           border: 1px solid white;
           border-radius: 10px;
           background-color: transparent;
@@ -64,7 +64,7 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 100px;
 
     @include mobile {
       height: 50%;
@@ -82,10 +82,10 @@
 
   .slidingTextContainer {
     position: absolute;
-    font-size: 50vh;
-    bottom: -120px;
+    font-size: 30vh;
+    bottom: -60px;
     white-space: nowrap;
-    color: #ffffff09;
+    color: #19221c09;
     width: 50%;
     font-weight: bold;
   }
